@@ -6,6 +6,8 @@
 
 Ben Kamen's personal data science project: analyzing potential predictors of oil subsidies across countries
 
+To read the analysis process, go through the notebooks in notebooks_as_html
+
 ## Project Organization. Made with the help of cookie cutter data science repo
 
 ```
