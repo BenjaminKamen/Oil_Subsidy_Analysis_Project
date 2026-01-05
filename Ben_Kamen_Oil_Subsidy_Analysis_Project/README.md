@@ -17,7 +17,7 @@ To read the analysis process, go through the notebooks in notebooks_as_html.
 │   ├── external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original data dump from combining extrnal data.
+│   └── raw            <- The original data dump from combining external data.
 │
 ├── docs               <- A default mkdocs project; see www.mkdocs.org for details
 │
