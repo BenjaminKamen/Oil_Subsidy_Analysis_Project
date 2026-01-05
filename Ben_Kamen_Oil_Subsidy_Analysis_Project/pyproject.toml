@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "oil_subsidy_analysis"
+version = "0.0.1"
+description = "Ben Kamen's personal data science project: analyzing potential predictors of oil subsidies across countries"
+authors = [
+  { name = "Ben Kamen" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License"
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["oil_subsidy_analysis"]
+include = ["pyproject.toml", "oil_subsidy_analysis/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["oil_subsidy_analysis"]
+force-sort-within-sections = true
+
