@@ -4,9 +4,9 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Ben Kamen's personal data science project: analyzing potential predictors of oil subsidies across countries
+Ben Kamen's personal data science project: analyzing potential predictors of oil subsidies across countries.
 
-To read the analysis process, go through the notebooks in notebooks_as_html
+To read the analysis process, go through the notebooks in notebooks_as_html.
 
 ## Project Organization. Made with the help of cookie cutter data science repo
 
